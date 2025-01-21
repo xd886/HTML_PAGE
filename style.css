@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center; 
+}
+
+
+h1 {
+    color: #FD98FB; 
+    font-size: 2.5em; 
+    text-decoration-color: #D6FF6B; 
+}
+
+h2 {
+    color: #D6FF6B; 
+    font-size: 2em;
+}
+
+h3 {
+    color: #FD98FB;
+    font-size: 1.8em;
+}
+
+h4, h5, h6 {
+    color: #FFFFFF; 
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6; 
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
