@@ -3,18 +3,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    text-align: center; 
+    text-align: center;
+    background-color: #121212; 
+    color: #EAEAEA; 
 }
 
 
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
 h1 {
-    color: #FD98FB; 
-    font-size: 2.5em; 
-    text-decoration-color: #D6FF6B; 
+    color: #FD98FB;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-decoration-color: #D6FF6B;
+    animation: color-change 3s infinite;
 }
 
 h2 {
-    color: #D6FF6B; 
+    color: #D6FF6B;
     font-size: 2em;
 }
 
@@ -24,19 +32,41 @@ h3 {
 }
 
 h4, h5, h6 {
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
 
 p {
     font-size: 1.2em;
-    line-height: 1.6; 
-    color: #FFFFFF;
+    line-height: 1.8; 
+    color: #EAEAEA;
+    margin: 15px auto;
+    max-width: 600px; 
     padding: 10px;
 }
 
 
 ul {
-    list-style-type: none; 
-    padding: 0;
+    list-style-type: disc; 
+    padding-left: 20px;
+    margin: 15px auto;
+    max-width: 600px;
 }
+
+li {
+    margin: 10px 0;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: blue;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: blue;
+    }
+}
+
